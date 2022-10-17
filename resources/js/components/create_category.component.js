@@ -62,7 +62,16 @@ export default class Createcategory extends component {
                             </Form.Group>
                         </Col>
                     </Row>
+                    <button
+                        variant="primary"
+                        size="lg"
+                        block="block"
+                        type="submit"
+                    >
+                        Add
+                    </button>
                 </Form>
+                <br></br>
             </div>
         );
     }
